@@ -1,3 +1,4 @@
+# Home
 Hi there and welcome to my website!
 
 I'm Nicola, I'm currently pursuing a PhD in Computer Science at Aalto University, Finland, and I hope to graduate by the end of 2025. 
