@@ -6,6 +6,8 @@ title: "Reader paper"
 
 This post is the first of a series that looks back at my works during the PhD, to reflect on what I wanted to do, the background story of the paper, what was promising, what were the biggest limitations of the project and overall what I learned.
 
+Paper link: [Reader: Model-based language-instructed reinforcement learning](https://aclanthology.org/2023.emnlp-main.1032/)
+
 ## Background 
 
 I started this work in early 2021, roughly one month after the beginning of my PhD, in what already feels like very different work. I was working fully remotely, as there was the Covid19 pandemic, RL was the cool thing to do, GPT-3 was out from half a year and there was no such a thing as an instruction-tuned LLM, let alone a compact, capable and open-source one that young researchers like me could even dream of using. 
@@ -52,6 +54,5 @@ So how could I have better used my two years of research by picking a better ide
 
 That said, I cannot think of any precise high-impact project I could have taken on, as I lacked the research knowledge, technical experience, infrastructure and collaboration network to do anything of the sort. But if I had, maybe one question that I would have liked to address is "Under which conditions is model-based reinforcement learning better than model-free RL?" with obvious follow-up "Should we forget about model-based reinforcement learning, or double down on it?". Of course, these are not questions that can be definitely be answered by a single work, but maybe precisely for that reason, any work taking a step towards an answer to them might have long-lasting effects.
 
-
-
+Back to [blogs](../blog.md).
 
