@@ -54,5 +54,7 @@ So how could I have better used my two years of research by picking a better ide
 
 That said, I cannot think of any precise high-impact project I could have taken on, as I lacked the research knowledge, technical experience, infrastructure and collaboration network to do anything of the sort. But if I had, maybe one question that I would have liked to address is "Under which conditions is model-based reinforcement learning better than model-free RL?" with obvious follow-up "Should we forget about model-based reinforcement learning, or double down on it?". Of course, these are not questions that can be definitely be answered by a single work, but maybe precisely for that reason, any work taking a step towards an answer to them might have long-lasting effects.
 
+[Next post](docstring.md). 
+
 Back to [blogs](../blog.md).
 
