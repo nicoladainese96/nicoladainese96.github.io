@@ -68,4 +68,4 @@ I wish I asked more explicitly the question "What does it take to crack really h
 
 [Previous post](reader.md). 
 
-Back to [blogs](../blog.md).
+[Back to blogs](../blog.md).

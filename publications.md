@@ -5,4 +5,4 @@
 - Matteo Merler, Katsiaryna Haitsiukevich, Nicola Dainese, Pekka Marttinen, ["In-context symbolic regression: Leveraging large language models for function discovery"](https://aclanthology.org/2024.acl-srw.49/), ACL Student Research Workshop 2024.
 - Nicola Dainese, Matteo Merler, Minttu Alakuijala, Pekka Marttinen, ["Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search"](https://arxiv.org/abs/2405.15383), NeurIPS 2024.
   
-Back to [home](index.md).
+[Back to home](index.md).

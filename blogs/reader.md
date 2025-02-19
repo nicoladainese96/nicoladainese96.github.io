@@ -56,5 +56,5 @@ That said, I cannot think of any precise high-impact project I could have taken 
 
 [Next post](docstring.md). 
 
-Back to [blogs](../blog.md).
+[Back to blogs](../blog.md).
 
