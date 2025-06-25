@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "What is the subject of my doctoral Thesis?"
+title: "What is the subject of my doctoral thesis?"
 ---
 # What is the subject of my doctoral thesis?
 
