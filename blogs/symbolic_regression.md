@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ICSR paper"
+title: "In-Context Symbolic Regression"
 ---
 # In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery
 
@@ -47,7 +47,7 @@ Some other ideas that we discussed, but never came around trying, were to enhanc
 
 ## Final details and results
 
-One final observation that we made (and were not the only ones) was that previous symbolic regression (SR) methods, based on genetic programming, search or RL, had the tendency to stacking and nesting a lot of terms in the equations found, resulting in much more complex expression than the ground trtuh. Inspired by ["Transformer-based Planning for Symbolic Regression"](https://arxiv.org/abs/2303.06833), we added a term to the fit score to penalise complexity in equations, thus introducing an explicit trade-off between fit performance and complexity. We measured complexity as the amount of nodes in the expression tree (e.g., $sin(3x+2)$ would have 3 nodes, $sin()$, $*$ and $+$). For the penalty term itself, we used $\exp(-\lambda C(f)/L)$, where $\lambda$ is a hyper-parameter of the method (higher values increase the regularization) and $L=30$ is a constant we hand-picked. The penalty is to be minimised together with the normalised MSE (we did that in a more involved way, but it doesn't change much in the end).
+One final observation that we made (and were not the only ones) was that previous symbolic regression (SR) methods, based on genetic programming, search or RL, had the tendency to stacking and nesting a lot of terms in the equations found, resulting in much more complex expression than the ground trtuh. Inspired by ["Transformer-based Planning for Symbolic Regression"](https://arxiv.org/abs/2303.06833), we added a term to the fit score to penalise complexity in equations, thus introducing an explicit trade-off between fit performance and complexity. We measured complexity as the amount of nodes in the expression tree (e.g., $sin(3x+2)$ would have 3 nodes, $sin()$, $*$ and $+$). For the penalty term itself, we used $\lambda \exp(- C(f)/L)$, where $\lambda$ is a hyper-parameter of the method (higher values increase the regularization) and $L=30$ is a constant we hand-picked. The penalty is to be minimised together with the normalised MSE (we did that in a more involved way, but it doesn't change much in the end).
 
 We tested our method, denoted as In-Context Symbolic Regression (ICSR), against a wide range of baselines in 4 common benchmarks in SR, all containing 1d and 2d equations. ICSR matched or outperformed all SR baselines, while producing simpler expressions that more closely resemble the complexity of theground truth equations and result in better out of distribution performance. We also got slightly better out-of-distribution performance, but in all fairness the benchmarks were all very saturated, with the best methods all reaching 0.999 out of 1 in many regression problems. 
 
